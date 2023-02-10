@@ -1,0 +1,38 @@
+@import '../../assets/css/vars.css';
+
+nav {
+	display: flex;
+	width: max-content;
+	padding: .7rem 1.7rem;
+	background-color: rgba(0, 0, 0, 0.3);
+	gap: .8rem;
+
+	border-radius: 3rem;
+	backdrop-filter: blur(15px);
+
+	position: fixed;
+	left: 50%;
+	bottom: 2rem;
+	transform: translateX(-50%);
+	z-index: 2;
+}
+
+nav a {
+	display: flex;
+
+	padding: .9rem;
+	border-radius: 50%;
+	background-color: transparent;
+	color: var(--color-light);
+
+	font-size: 1.1rem;
+}
+
+nav a:hover {
+	background-color: rgba(0, 0, 0, 0.3);
+}
+
+nav a.active {
+	background-color: var(--color-bg);
+	color: var(--color-white);
+}

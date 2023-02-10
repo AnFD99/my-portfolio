@@ -1,0 +1,19 @@
+:root {
+	--color-bg: #1f1f38;
+	--color-bg-variant: #2c2c6c;
+	--color-primary: #4db5ff;
+	--color-primary-variant: rgba(77, 181, 255, 0.4);
+	--color-white: #fff;
+	--color-light: rgba(255, 255, 255, 0.6);
+
+	--transition: all .4s ease;
+
+	--container-width-lg: 80%;
+	--container-width-md: 86%;
+	--container-width-sm: 90%;
+
+	--pattern-size: 50px;
+	--pattern-size-calculation: calc(2*var(--pattern-size)) calc(2*var(--pattern-size));
+	--pattern-position: 35.36% 35.36% at;
+	--pattern-colors: #0000 66%, #13132E 68% 70%, #0000 72%;
+}

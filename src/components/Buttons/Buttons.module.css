@@ -1,0 +1,32 @@
+@import '../../assets/css/vars.css';
+
+a {
+	color: var(--color-primary);
+	transition: var(--transition);
+}
+
+a:hover {
+	color: var(--color-white);
+}
+
+.btn {
+	width: max-content;
+	display: inline-block;
+	color: var(--color-primary);
+	padding: .75rem 1.2rem;
+	border-radius: .4rem;
+	cursor: pointer;
+	border: 1px solid var(--color-primary);
+	transition: var(--transition);
+}
+
+.btn:hover {
+	background-color: var(--color-white);
+	color: var(--color-bg);
+	border-color: transparent;
+}
+
+.btn_primary {
+	background-color: var(--color-primary);
+	color: var(--color-bg);
+}

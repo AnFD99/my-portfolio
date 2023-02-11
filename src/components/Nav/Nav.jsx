@@ -45,7 +45,7 @@ const Nav = () => {
          <a
             href='#contacts'
             onClick={() => setActiveLink('#contacts')}
-            className={activeLink === '#contact' ? styles.active : ''}
+            className={activeLink === '#contacts' ? styles.active : ''}
          >
             <BiMessage />
          </a>

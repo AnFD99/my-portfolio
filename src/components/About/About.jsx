@@ -2,7 +2,6 @@ import React from 'react'
 import styles from './About.module.css'
 import { BiAward, BiFolder } from 'react-icons/bi'
 import { ContactButton } from '../Buttons/Buttons'
-import me from '../../assets/img/me.png'
 
 const About = () => {
    return (
@@ -13,7 +12,7 @@ const About = () => {
          <div className={`container ${styles.about_container}`}>
             <div className={styles.about_me}>
                <div className={styles.about_me_img}>
-                  <img src={me} alt='me' />
+                  <img src='' alt='' />
                </div>
             </div>
             <div className={styles.about_content}>

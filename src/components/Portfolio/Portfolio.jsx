@@ -6,7 +6,6 @@ import PortfolioItem from './PortfolioItem'
 const Portfolio = () => {
    return (
       <section id='portfolio'>
-         <h5>Мои работы</h5>
          <h2>Портфолио</h2>
 
          <div className={`container ${styles.portfolio_container}`}>

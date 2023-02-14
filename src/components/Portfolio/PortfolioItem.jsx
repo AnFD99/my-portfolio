@@ -11,7 +11,7 @@ const PortfolioItem = ({ img, title, github, demo }) => {
          <h3>{title}</h3>
          <div className={styles.portfolio_btn}>
             <ViewGithubButton link={github}>GitHub</ViewGithubButton>
-            <ViewDemoButton link={demo}>Demo</ViewDemoButton>
+            <ViewDemoButton link={demo}>Смотреть демо</ViewDemoButton>
          </div>
       </div>
    )

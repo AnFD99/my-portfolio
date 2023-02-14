@@ -4,7 +4,13 @@ import CV from '../../assets/img/Fadeeva-Anastasia-CV.pdf'
 
 export const CVButton = ({ children }) => {
    return (
-      <a href={CV} download className={styles.btn}>
+      <a
+         href={CV}
+         // download
+         className={styles.btn}
+         target='_blank'
+         rel='noreferrer'
+      >
          {children}
       </a>
    )
@@ -43,6 +49,4 @@ export const ViewDemoButton = ({ children, ...props }) => {
       </a>
    )
 }
-
-
 

@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import styles from './Experience.module.css'
 import { BsFillCheckCircleFill } from 'react-icons/bs'
@@ -6,7 +7,6 @@ import { AiFillStar, AiOutlineStar } from 'react-icons/ai'
 const Experience = () => {
    return (
       <section id='experience'>
-         <h5>Какими навыками я владею</h5>
          <h2>Опыт</h2>
 
          <div className={`container ${styles.experience_container}`}>
@@ -19,22 +19,6 @@ const Experience = () => {
                      />
                      <div>
                         <h4>HTML</h4>
-                        <div className='text_light'>
-                           <AiFillStar />
-                           <AiFillStar />
-                           <AiFillStar />
-                           <AiFillStar />
-                           <AiFillStar />
-                           <AiOutlineStar />
-                        </div>
-                     </div>
-                  </div>
-                  <div className={styles.experience_details}>
-                     <BsFillCheckCircleFill
-                        className={styles.experience_icon}
-                     />
-                     <div>
-                        <h4>React</h4>
                         <div className='text_light'>
                            <AiFillStar />
                            <AiFillStar />
@@ -64,13 +48,13 @@ const Experience = () => {
                         className={styles.experience_icon}
                      />
                      <div>
-                        <h4>JavaScript</h4>
+                        <h4>Sass, Less</h4>
                         <div className='text_light'>
                            <AiFillStar />
                            <AiFillStar />
                            <AiFillStar />
-                           <AiFillStar />
-                           <AiFillStar />
+                           <AiOutlineStar />
+                           <AiOutlineStar />
                         </div>
                      </div>
                   </div>
@@ -79,13 +63,43 @@ const Experience = () => {
                         className={styles.experience_icon}
                      />
                      <div>
-                        <h4>Sass / Less</h4>
+                        <h4>JavaScript</h4>
                         <div className='text_light'>
                            <AiFillStar />
                            <AiFillStar />
                            <AiFillStar />
                            <AiFillStar />
+                           <AiOutlineStar />
+                        </div>
+                     </div>
+                  </div>
+                  <div className={styles.experience_details}>
+                     <BsFillCheckCircleFill
+                        className={styles.experience_icon}
+                     />
+                     <div>
+                        <h4>React</h4>
+                        <div className='text_light'>
                            <AiFillStar />
+                           <AiFillStar />
+                           <AiFillStar />
+                           <AiFillStar />
+                           <AiOutlineStar />
+                        </div>
+                     </div>
+                  </div>
+                  <div className={styles.experience_details}>
+                     <BsFillCheckCircleFill
+                        className={styles.experience_icon}
+                     />
+                     <div>
+                        <h4>Redux</h4>
+                        <div className='text_light'>
+                           <AiFillStar />
+                           <AiFillStar />
+                           <AiFillStar />
+                           <AiFillStar />
+                           <AiOutlineStar />
                         </div>
                      </div>
                   </div>
@@ -103,9 +117,9 @@ const Experience = () => {
                         <div className='text_light'>
                            <AiFillStar />
                            <AiFillStar />
-                           <AiFillStar />
-                           <AiFillStar />
-                           <AiFillStar />
+                           <AiOutlineStar />
+                           <AiOutlineStar />
+                           <AiOutlineStar />
                         </div>
                      </div>
                   </div>
@@ -118,33 +132,24 @@ const Experience = () => {
                         <div className='text_light'>
                            <AiFillStar />
                            <AiFillStar />
-                           <AiFillStar />
-                           <AiFillStar />
-                           <AiFillStar />
+                           <AiOutlineStar />
+                           <AiOutlineStar />
+                           <AiOutlineStar />
                         </div>
                      </div>
                   </div>
                </div>
             </div>
          </div>
+
+         <div className={styles.skills}>
+            Более подробно обо мне можно посмотреть в <a href='#' className={styles.cv}>резюме</a>
+         </div>
       </section>
    )
 }
 
 export default Experience
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

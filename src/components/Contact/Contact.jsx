@@ -7,7 +7,6 @@ import { FaTelegramPlane } from 'react-icons/fa'
 const Contact = () => {
    return (
       <section id='contacts'>
-         <h5>Как связаться со мной</h5>
          <h2>Контакты</h2>
 
          <div className={`container ${styles.contact_container}`}>

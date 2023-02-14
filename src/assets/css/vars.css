@@ -1,4 +1,4 @@
-:root {
+/* :root {
 	--color-bg: #1f1f38;
 	--color-bg-variant: #2c2c6c;
 	--color-primary: #4db5ff;
@@ -16,4 +16,32 @@
 	--pattern-size-calculation: calc(2*var(--pattern-size)) calc(2*var(--pattern-size));
 	--pattern-position: 35.36% 35.36% at;
 	--pattern-colors: #0000 66%, #13132E 68% 70%, #0000 72%;
+} */
+
+:root {
+	--color-bg: #0E122D;
+	--color-bg-variant: #51628E;
+	--color-primary: #AFD0C9;
+	--color-primary-variant: rgba(175, 208, 201, 0.4);
+	--color-white: #fff;
+	--color-light: rgba(255, 255, 255, 0.6);
+
+	--transition: all .4s ease;
+
+	--container-width-lg: 80%;
+	--container-width-md: 86%;
+	--container-width-sm: 90%;
+
+	--pattern-size: 50px;
+	--pattern-size-calculation: calc(2*var(--pattern-size)) calc(2*var(--pattern-size));
+	--pattern-position: 35.36% 35.36% at;
+	--pattern-colors: #0000 66%, #182044 68% 70%, #0000 72%;
 }
+
+/* 
+	--color-bg: #011638;
+	--color-bg-variant: #022F78;
+	--color-primary: #41B49D;
+	--color-primary-variant: rgba(77, 181, 255, 0.4);
+	--pattern-colors: #0000 66%, #0a0a26 68% 70%, #0000 72%;
+ */

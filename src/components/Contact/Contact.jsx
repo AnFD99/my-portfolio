@@ -13,9 +13,9 @@ const Contact = () => {
             <div className={styles.contact_option}>
                <AiOutlineMail className={styles.contact_icon} />
                <h4>Email</h4>
-               <h5>anfd.design@gmail.com</h5>
+               <h5>anfd.dev@gmail.com</h5>
                <a
-                  href='mailto:anfd.design@gmail.com'
+                  href='mailto:anfd.dev@gmail.com'
                   target='_blank'
                   rel='noreferrer'
                >
@@ -52,6 +52,8 @@ const Contact = () => {
 }
 
 export default Contact
+
+
 
 
 

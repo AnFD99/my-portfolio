@@ -53,6 +53,7 @@ h1 {
 .container {
   width: var(--container-width-lg);
   margin: 0 auto;
+  flex: 1;
 }
 
 section {
@@ -89,6 +90,11 @@ img {
   display: block;
   width: 100%;
   object-fit: cover;
+}
+
+#shadow-host-companion {
+  margin-top: 0;
+  padding-top: 0;
 }
 
 @media screen and (max-width: 1024px) {
